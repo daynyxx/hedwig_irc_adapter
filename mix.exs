@@ -46,7 +46,7 @@ defmodule HedwigIrc.Mixfile do
     [
       maintainers: ["Chris Holmes"],
       licenses: ["MIT"],
-      links: %{"Github" => "https://github.com/cbdh2024/hedwig_irc_adapter"},
+      links: %{"Github" => "https://github.com/daynyxx/hedwig_irc_adapter"},
     ]
   end
 end
