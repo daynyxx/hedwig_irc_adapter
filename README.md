@@ -1,7 +1,7 @@
 # Hedwig IRC Adapter
 > An IRC adapter for [Hedwig](https://github.com/hedwig-im/hedwig), based
-> on [ExIrc](https://github.com/bitwalker/exirc). Take from https://github.com/jeffweiss/hedwig_irc.
-> This is a clone updates to ExIrc 2.0.0 and Hedwig 1.0.1
+> on [ExIrc](https://github.com/bitwalker/exirc). Taken from https://github.com/jeffweiss/hedwig_irc.
+> This is a clone updated to ExIrc 2.0.0 and Hedwig 1.0.1
 
 ## Getting started
 
