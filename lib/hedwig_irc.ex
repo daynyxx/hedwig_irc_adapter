@@ -97,10 +97,14 @@ defmodule Hedwig.Adapters.IRC do
     {:noreply, state}
   end
 
+  def handle_info({:joined, server, _message}, state) do
+    Logger.info "Joined #{server}"
+    {:noreply, state}
+  end
+
   def handle_info(msg, state) do
     Logger.debug "Unknown message: #{inspect msg}"
     {:noreply, state}
   end
   
-  #TODO: Handle :joined message
 end
