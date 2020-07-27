@@ -101,4 +101,6 @@ defmodule Hedwig.Adapters.IRC do
     Logger.debug "Unknown message: #{inspect msg}"
     {:noreply, state}
   end
+  
+  #TODO: Handle :joined message
 end
