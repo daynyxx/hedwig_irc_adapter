@@ -49,7 +49,7 @@ Ensure `hedwig_irc` is started before your application:
 
 ```elixir
 def application do
-  [applications: [:hedwig_irc]]
+  [applications: [:hedwig_irc_adapter]]
 end
 ```
 
