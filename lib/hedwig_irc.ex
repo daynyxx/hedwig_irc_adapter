@@ -68,6 +68,13 @@ defmodule Hedwig.Adapters.IRC do
     {:noreply, state}
   end
 
+  def handle_info({:names_list, channel, names_list}, config) do
+    names = String.split(names_list, " ", trim: true)
+            |> Enum.map(fn name -> " #{name}\n" end)
+    Logger.info "Users logged in to #{channel}:\n#{names}"
+    {:noreply, config}
+  end
+
   def handle_info({:mentioned, _msg, _user, _channel}, state) do
     {:noreply, state}
   end
@@ -106,5 +113,4 @@ defmodule Hedwig.Adapters.IRC do
     Logger.debug "Unknown message: #{inspect msg}"
     {:noreply, state}
   end
-  
 end
