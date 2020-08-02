@@ -48,7 +48,7 @@ or
 ```elixir
 def deps do
   [
-   {:hedwig_irc_adapter, github: "daynyxx/hedwig_irc_adapter"}
+   {:hedwig_irc, github: "daynyxx/hedwig_irc_adapter"}
   ]
 end
 ```
