@@ -35,17 +35,17 @@ Change into our new application directory:
 λ cd alfred
 ```
 
-Add `hedwig_irc` to your list of dependencies in `mix.exs`:
+Add `hedwig_irc_adapter` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-   {:hedwig_irc, "~> 0.1.0"}
+   {:hedwig_irc_adapter, "~> 0.1.0"}
   ]
 end
 ```
 
-Ensure `hedwig_irc` is started before your application:
+Ensure `hedwig_irc_adapter` is started before your application:
 
 ```elixir
 def application do
