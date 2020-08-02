@@ -44,14 +44,6 @@ def deps do
   ]
 end
 ```
-or 
-```elixir
-def deps do
-  [
-   {:hedwig_irc, github: "daynyxx/hedwig_irc_adapter"}
-  ]
-end
-```
 
 Ensure `hedwig_irc_adapter` is started before your application:
 
